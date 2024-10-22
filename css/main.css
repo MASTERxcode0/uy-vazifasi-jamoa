@@ -225,4 +225,152 @@
   margin: 40px 0;
   font-size: 14px;
   color: #666;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.category__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+
+.category__menu h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.category__menu ul {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.category__menu ul li {
+  list-style: none;
+}
+.category__menu ul li a {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  color: #6a983c;
+}
+.category__menu button {
+  padding: 12px 16px;
+  gap: 6px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 48px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  align-items: center;
+  display: flex;
+}
+
+.category__banner {
+  max-width: 419px;
+  width: 100%;
+  justify-content: space-between;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #f4f8ec;
+  padding: 48px 33px 32px;
+}
+.category__banner .banner-heading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.category__banner .banner-heading span {
+  color: #6a983c;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.category__banner button {
+  width: 163px;
+  padding: 12px 16px;
+  display: block;
+  border-radius: 12px;
+  border: solid 2px #92c064;
+  background: none;
+}
+
+.products-card {
+  max-width: 269px;
+  width: 100%;
+  border-radius: 12px;
+  height: 323px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid 1px #d1d1d1;
+  position: relative;
+}
+.products-card img {
+  width: 237px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+.products-card div span {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+}
+.products-card div p {
+  font-family: Open Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: #575757;
+  margin-top: 4px;
+}
+.products-card div .cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.products-card div .cost h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #151515;
+}
+.products-card div .cost button {
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  padding: 6.5px 12px;
+  border-radius: 12px;
+  border: solid 2px #46760a;
+  background-color: #6a983c;
+}
+.products-card .cost-1 {
+  position: absolute;
+  color: #6a983c;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  top: 28px;
+  left: 36px;
 }/*# sourceMappingURL=main.css.map */
