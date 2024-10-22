@@ -78,7 +78,7 @@
 }
 
 .bacery {
-  background: #f9f9f9;
+  background: #f9f9f9 !important;
   padding-top: 16px;
   padding-bottom: 16px;
 }
