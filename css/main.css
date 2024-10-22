@@ -238,7 +238,8 @@ button:active {
 .category__container {
   display: flex;
   justify-content: space-between;
-  padding: 64px 0;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .category__menu h4 {
@@ -373,4 +374,39 @@ button:active {
   line-height: 18px;
   top: 28px;
   left: 36px;
+}
+
+.section__headline {
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section__headline .section__headline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__headline .section__headline-header .section__headline-heading {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.section__headline .section__headline-header .button {
+  display: flex;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+
+.section__headline-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
 }/*# sourceMappingURL=main.css.map */

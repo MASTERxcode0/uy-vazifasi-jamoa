@@ -8,12 +8,9 @@ button:active {
   display: flex;
   justify-content: space-between;
 
-  padding-top: 64px ;
-  padding-bottom: 64px ;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
-
-
-
 
 .category__menu {
   h4 {
@@ -153,4 +150,38 @@ button:active {
     top: 28px;
     left: 36px;
   }
+}
+
+.section__headline {
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  .section__headline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .section__headline-heading {
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+    }
+    .button {
+      display: flex;
+      align-items: center;
+      font-family: Poppins, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 22.5px;
+      column-gap: 6px;
+    }
+  }
+}
+
+.section__headline-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
 }
