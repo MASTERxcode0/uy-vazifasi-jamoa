@@ -1,0 +1,105 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog_paragrf{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    color: #151515;
+    cursor: pointer;
+    font-weight: 700;
+}
+.blog_text{
+    font-weight: 600;
+    font-size: 18px;
+    color: #151515;
+}
+.cards{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+.card{
+    background-image: url(../imgases/footer_top_imgs/Image-dark.png);
+    width: 469px;
+    height: 400px;
+    color: #fff;
+    padding: 24px;
+    background-repeat: no-repeat;
+    margin-right: 31px;
+}
+.card_text{
+    width: 72px;
+    height: 18px;
+    color: #6A983C;
+    background-color: #F4F8EC;
+    border-radius:12px;
+    padding-left:12px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 4px;
+}
+.card h3{
+    margin-top: 208px;
+    width: 380px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.user{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.user img{
+    cursor: pointer;
+}
+.user p{
+    font-size: 12px;
+}
+.vegetable_text{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #6A983C;
+}
+.vegetable h3{
+    width: 267px;
+    height: 81px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #151515;
+}
+.vegetable{
+    margin-right: 31px;
+}
+.flex{
+    display: flex;
+    gap: 16px;
+    color: #151515;
+    font-size: 12px;
+    margin-top: 16px;
+}
+.salat_flex{
+    display: flex;
+}
+.left h4{
+    color: #151515;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.salat_flex{
+    margin-top: 32px;
+}
