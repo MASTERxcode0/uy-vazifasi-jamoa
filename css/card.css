@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container {
   max-width: 1170px;
   width: 90%;
@@ -6,12 +6,7 @@
   padding: 30px 30px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   background-color: white;
-=======
-.container{
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
->>>>>>> ab8f22eb3276ac6988b36ee7e6e6738185122a67
+
 }
 .blog{
     display: flex;
